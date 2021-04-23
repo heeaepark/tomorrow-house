@@ -1,7 +1,8 @@
-/* icon-svg font import */
+/************ icon-svg font import ************/
 @import './base/_fonts';
 
-/* reset css */
-* {
-  font-family: 'Noto Sans KR', sans-serif;
-}
+/************ normalize css  ************/
+@import './base/_normalize';
+
+/************ reset css  ************/
+@import './base/_reset.scss';
