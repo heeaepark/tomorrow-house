@@ -10,5 +10,7 @@
 /************ reset css  ************/
 @import './base/_reset';
 
+@import './mixins/_text-style';
+@import './mixins/_responsive';
 
 @import './layouts/_grids';

@@ -419,6 +419,12 @@ ol {
   padding-left: 0;
   list-style: none; }
 
+p {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #3DA5F5; }
+
 /* 
   * MOBILE(< 768px)---------------------------------------------
   * fixture                                sm
