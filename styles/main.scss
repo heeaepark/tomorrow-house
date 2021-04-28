@@ -1,18 +1,19 @@
 // 변수 관련 임포트 링크는 항상 상단에 올려주세요.
-@import './constants/_colors';
-@import './constants/_typography';
-@import './constants/_breakpoint';
+// @import './constants/_colors';
+// @import './constants/_typography';
+// @import './constants/_breakpoint';
 
 
-/************ icon-svg font import ************/
-@import './base/_fonts';
-/************ normalize css  ************/
-@import './base/_normalize';
-/************ reset css  ************/
-@import './base/_reset';
+// /************ icon-svg font import ************/
+// @import './base/_fonts';
+// /************ normalize css  ************/
+// @import './base/_normalize';
+// /************ reset css  ************/
+// @import './base/_reset';
 
-@import './mixins/_text-style';
-@import './mixins/_responsive';
-@import './mixins/_positions';
+// @import './mixins/_text-style';
+// @import './mixins/_responsive';
+// @import './mixins/_positions';
+@import './mixins/_flexbox';
 
-@import './layouts/_grids';
+// @import './layouts/_grids';
