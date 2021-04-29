@@ -425,6 +425,30 @@ p {
   letter-spacing: -0.005em;
   color: #3DA5F5; }
 
+.tag-red, .tag-green, .tag-gray {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  height: 20px;
+  padding: 0 6px;
+  font-weight: 700;
+  border-radius: 4px; }
+
+.tag-red {
+  color: #FFF;
+  background-color: #F86D7D; }
+
+.tag-green {
+  color: #FFF;
+  background-color: #22C58B; }
+
+.tag-gray {
+  color: #8C8D96;
+  background-color: #E0E2E7; }
+
 /* 
   * MOBILE(< 768px)---------------------------------------------
   * fixture                                sm
