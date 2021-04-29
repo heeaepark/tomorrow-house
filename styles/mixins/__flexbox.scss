@@ -11,9 +11,21 @@ $flex-map: (
   @return map-get($flex-map, $key);
 }
 
-@mixin flexbox($ai: center, $jc: center) {
+@mixin flexbox($jc: center, $ai: center) {
   display: flex;
-  align-items: _get-flex-value($ai);
   justify-content: _get-flex-value($jc);
+  align-items: _get-flex-value($ai);
 }
 
+@mixin inline-flexbox($jc: center, $ai: center) {
+  display: inline-flex;
+  justify-content: _get-flex-value($jc);
+  align-items: _get-flex-value($ai);
+}
+
+@mixin column-flexbox($jc: center, $ai: center) {
+  display: flex;
+  flex-direction: column;
+  justify-content: _get-flex-value($jc);
+  align-items: _get-flex-value($ai);
+}
