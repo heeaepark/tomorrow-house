@@ -4,13 +4,10 @@
 @import './constants/_typography';
 @import './constants/_breakpoint';
 
-
-/************ icon-svg font import ************/
 @import './base/_fonts';
-/************ normalize css  ************/
 @import './base/_normalize';
-/************ reset css  ************/
 @import './base/_reset';
+@import './base/_globals';
 
 @import './mixins/_text-style';
 @import './mixins/_responsive';
